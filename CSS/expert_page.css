@@ -1,0 +1,139 @@
+
+
+/* HTML */
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #f7f7ff;
+}
+
+/* HEADER */
+#logo{
+    max-width:8%;
+    align-self: center;
+    border-radius: 100%;
+    box-shadow: 5px 3px 5px #f08080;
+}
+h1{
+    align-self: center;
+}
+
+header{
+    background-color: #fde2e4;
+    /* border: 2px solid blue; */
+    display:flex;
+    justify-content: space-around;
+}
+
+.navigation{
+    width:50%;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #c8e7ff;
+}
+
+.navigation_2{
+    background-color: #c8e7ff;
+}
+
+/* ANCHOR TAGS */
+a{
+    text-decoration:none;
+    font-weight: bold;
+    background-color: #3a7aab;
+    align-self: center;
+    padding: 1%;
+    color:white;
+    border-radius: 5%;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.navigation_2 a{
+    background-color: #5395c8;
+    text-decoration: none;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* MAIN */
+/* EXPERTS PAGE*/
+
+main{
+    background-color: #fad2e1;
+    margin-top: 10px;
+}
+
+.main_top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:3%;
+    padding-right: 3%;
+    padding:1%;
+}
+
+.main_top a{
+    background:none;
+}
+/* grid without flexbox */
+/* .grid{
+    display:grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 48% 48%;
+    margin-left:15px;
+} */
+
+/* grid using flexbox */
+.grid{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.grid_items{
+    padding: 1%;
+    background-color: #c8e7ff;
+    margin:5px;
+    margin-left: 1%;
+    margin-right: 1%;
+    display:flex;
+    flex-direction: column;
+    border-radius: 10%;
+    flex:1 1 25em;
+}
+
+.grid_items img{
+    background-color: #79bef2;
+    border-radius: 100%;
+    padding:3%;
+    box-shadow: 5px 3px 3px #3b77a4;
+    width:20%;
+}
+
+
+/* FOOTER */
+footer{
+    /* border: 2px solid blue; */
+    margin-top:10px;
+    padding:1%;
+    background-color: #fde2e4;
+}
+
+h2{
+    font-size: 20px;
+}
+
+/* div{
+    border:2px solid red;
+    margin:3px;
+} */
+
+.expimg{
+    height:25%;
+}
